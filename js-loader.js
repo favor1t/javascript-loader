@@ -1,6 +1,15 @@
+
 /*
-	JavaScript Loader
+	* JavaScript Loader
+	* :: Quick and easy way to load multiple JavaScript files via a single reqquest
+	* Code: http://javascript-loader.googlecode.com/
+	* Copyright (c) 2009 George Mandis (georgemandis.com, snaptortoise.com)
+	* Version: 0.2 (1/30/2010)
+	* Licensed under the GNU General Public License v3
+	* http://www.gnu.org/copyleft/gpl.html
+	* Tested in: Safari 4, Firefox 3, IE7 and Mobile Safari 2.2.1
 */
+
 var script = (function(){
     var src=document.getElementsByTagName('script');
     return src[src.length-1].getAttribute("src");
